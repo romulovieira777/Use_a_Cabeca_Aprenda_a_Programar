@@ -1,7 +1,8 @@
 import random
 
 
-user_choice = input('Choose rock, paper or scissors: ')
+winner = ''
+
 random_choice = random.randint(0, 2)
 
 if random_choice == 0:
@@ -11,4 +12,20 @@ elif random_choice == 1:
 else:
     computer_choice = 'scissors'
 
-print(f'You choose {user_choice}, and the computer choose {computer_choice}.')
+user_choice = input('Choose rock, paper or scissors: ')
+
+if computer_choice == user_choice:
+    winner = 'Tie'
+elif computer_choice == 'paper' and user_choice == 'rock':
+    winner = 'Computer'
+elif computer_choice == 'rock' and user_choice == 'scissors':
+    winner = 'Computer'
+elif computer_choice == 'scissors' and user_choice == 'paper':
+    winner = 'Computer'
+else:
+    winner = 'User'
+
+if computer_choice == user_choice:
+    print(f'We both chose {computer_choice} play again!')
+else:
+    print(f'{winner} won, I chose {computer_choice}.')
