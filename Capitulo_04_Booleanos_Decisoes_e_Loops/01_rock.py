@@ -12,7 +12,11 @@ elif random_choice == 1:
 else:
     computer_choice = 'scissors'
 
-user_choice = input('Choose rock, paper or scissors: ')
+user_choice = ''
+while (user_choice != 'rock' and
+         user_choice != 'paper' and
+         user_choice != 'scissors'):
+     user_choice = input('rock, paper or scissors? ').lower()
 
 if computer_choice == user_choice:
     winner = 'Tie'
