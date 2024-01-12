@@ -39,9 +39,10 @@ print('Solutions with the highest score:', best_solutions)
 cost = 100.0
 most_effective = 0
 
-for i in range(length):
-    if scores[i] == high_score and costs[i] < cost:
-        most_effective = i
-        cost = costs[i]
+for i in range(len(best_solutions)):
+    index = best_solutions[i]
+    if cost > costs[index]:
+        most_effective = index
+        cost = costs[index]
 
 print('Solution', most_effective, 'is the most effective with a cost of', costs[most_effective])
