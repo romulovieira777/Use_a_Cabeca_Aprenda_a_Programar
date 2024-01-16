@@ -2,7 +2,6 @@ def drink_me(param):
     msg = 'Drinking ' + param + ' glass'
     print(msg)
     param = 'empty'
-    print(param)
 
 
 glass = 'full'
