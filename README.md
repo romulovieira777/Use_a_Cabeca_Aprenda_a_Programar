@@ -9,4 +9,4 @@
 - [Capítulo 06 - Funções e Abstração](https://github.com/romulovieira777/Use_a_Cabeca_Aprenda_a_Programar/tree/main/Capitulo_06_Funcoes_e_Abstracao)
 - [Capítulo 07 - Ordenação e Iteração Aninhada](https://github.com/romulovieira777/Use_a_Cabeca_Aprenda_a_Programar/tree/main/Capitulo_07_Ordenacao_e_Iteracao_Aninhada)
 - [Capítulo 08 - Texto, Strings e Heurísticas](https://github.com/romulovieira777/Use_a_Cabeca_Aprenda_a_Programar/tree/main/Capitulo_08_Texto_Strings_e_Heuristicas)
-- [Capítulo 09 - Módulos, Métodos, Classes e Objetos]()
+- [Capítulo 09 - Módulos, Métodos, Classes e Objetos](https://github.com/romulovieira777/Use_a_Cabeca_Aprenda_a_Programar/tree/main/Capitulo_09_Modulos_Metodos_Classes_e_Objetos)
