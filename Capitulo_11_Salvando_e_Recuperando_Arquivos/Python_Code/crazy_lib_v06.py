@@ -30,7 +30,7 @@ def process_line(line):
 
 
 def main():
-    lib = make_crazy_lib('lib.txt')
+    lib = make_crazy_lib('..\Python_Code\lib.txt')
     print(lib)
 
 
